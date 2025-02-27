@@ -1,0 +1,8 @@
+file_format: "1"
+id: cool644az
+name: cool644az
+type: shield
+url: https://github.com/telzo2000/zmk-config-cool644az
+requires: [seeeduino_xiao_ble]
+features:
+  - keys

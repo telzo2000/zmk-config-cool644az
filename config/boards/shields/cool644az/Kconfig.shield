@@ -1,0 +1,5 @@
+config SHIELD_COOL644az_R
+    def_bool $(shields_list_contains,cool644az_R)
+
+config SHIELD_COOL644az_L
+    def_bool $(shields_list_contains,cool644az_L)
