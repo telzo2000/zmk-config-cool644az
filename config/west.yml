@@ -15,7 +15,7 @@ manifest:
       remote: telzo2000
       revision: main
     - name: zmk
-      remote: zmk
+      remote: cdc-mkb
       revision: main
       import: app/west.yml      
   self:
