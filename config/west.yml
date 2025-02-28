@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: telzo2000
       url-base: https://github.com/telzo2000
-    -name: zmk
-      url-base: https://github.com/cdc-mkb/zmk
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,9 +12,5 @@ manifest:
     - name: zmk-pmw3610-driver
       remote: telzo2000
       revision: main
-    - name: zmk
-      remote: cdc-mkb
-      revision: main
-      import: app/west.yml      
   self:
     path: config
