@@ -4,15 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: telzo2000
       url-base: https://github.com/telzo2000
-    - name: zmk
-      url-base: https://github.com/cdc-mkb/zmk 
+    - name: pim447
+      url-base: https://github.com/t0bybr/pim447
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: pim447
-      remote: zmk
+      remote: pim447
       revision: main
+      import: app/west.yml
   self:
     path: config
