@@ -1,0 +1,13 @@
+/ {
+    trackball: az1uball {
+        compatible = "kzyz,az1uball";
+        label = "AZ1UBALL_TRACKBALL";
+        i2c-bus = <&i2c0>;
+        int-gpios = <&gpio0 6 0>; // XIAO BLEのピンを確認して調整
+    };
+};
+
+&i2c0 {
+    status = "okay";
+    clock-frequency = <100000>;
+};

@@ -141,3 +141,21 @@
         };
     };
 };
+    behaviors {
+        ms_up: mouse_up {
+            compatible = "zmk,behavior-mouse";
+            #binding-cells = <0>;
+            movement = <1>;
+        };
+        ms_down: mouse_down {
+            compatible = "zmk,behavior-mouse";
+            #binding-cells = <0>;
+            movement = <-1>;
+        };
+        ms_left: mouse_left {
+            compatible = "zmk,behavior-mouse";
+            #binding-cells = <0>;
+            movement = <-1>;
+        };
+    };
+};
