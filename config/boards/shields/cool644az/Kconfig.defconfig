@@ -9,6 +9,18 @@ config ZMK_SPLIT
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config SPI
+    default y
+
+config ZMK_POINTING
+    default y
+
+config AZ1UBALL
+    default y
+
+config I2C
+    default y
+    
 endif
 
 if SHIELD_COOL644az_L

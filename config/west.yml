@@ -4,16 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: telzo2000
       url-base: https://github.com/telzo2000
-    - name: pim447
-      url-base: https://github.com/t0bybr/pim447
+     - name: kzyz
+      url-base: https://github.com/kzyz
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: pim447
-      remote: pim447
+    - name: zmk_az1uball_driver
+      remote: kzyz
       revision: main
-      import: app/west.yml
   self:
     path: config
